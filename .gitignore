@@ -1,0 +1,24 @@
+# ignore All
+/*
+!.gitignore
+
+# exception .c .h .cydwr .cyprj
+!/I2C_SCB_Master01.cydsn
+/I2C_SCB_Master01.cydsn/*
+!/I2C_SCB_Master01.cydsn/*.c
+!/I2C_SCB_Master01.cydsn/*.s
+!/I2C_SCB_Master01.cydsn/*.h
+!/I2C_SCB_Master01.cydsn/*.cydwr
+!/I2C_SCB_Master01.cydsn/*.cyprj
+
+# exception .cysch
+!/I2C_SCB_Master01.cydsn/TopDesign
+/I2C_SCB_Master01.cydsn/TopDesign/*
+!/I2C_SCB_Master01.cydsn/TopDesign/*.cysch
+
+#exception .hex
+!/I2C_SCB_Master01.cydsn/CortexM0p
+/I2C_SCB_Master01.cydsn/CortexM0p/*
+!/I2C_SCB_Master01.cydsn/CortexM0p/ARM_GCC_541
+/I2C_SCB_Master01.cydsn/CortexM0p/ARM_GCC_541/Debug/*
+!/I2C_SCB_Master01.cydsn/CortexM0p/ARM_GCC_541/Debug/*.hex
